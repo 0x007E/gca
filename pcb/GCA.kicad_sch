@@ -4414,15 +4414,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 54.61 138.43 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "defc5d6f-c568-41ba-861b-19afa02f96b4")
 		(property "Reference" "J2"
-			(at 55.245 128.27 0)
+			(at 53.086 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,11 +4430,12 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 55.245 130.81 0)
+			(at 55.245 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
