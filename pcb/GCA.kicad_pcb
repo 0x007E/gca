@@ -172,7 +172,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -645,7 +645,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -918,7 +918,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1114,7 +1114,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1688,7 +1688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1700,7 +1700,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1708,6 +1708,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HTL" "101522"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd3ec60e-0d59-40d5-9242-bdf334f253d6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2488,7 +2501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2500,7 +2513,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2516,7 +2529,7 @@
 		(path "/21c469b8-57cd-4bc6-ab31-0c3b3f85b0e5")
 		(sheetname "/")
 		(sheetfile "GCA.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.35 0)
@@ -2583,7 +2596,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -2596,7 +2609,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "I2C Serial EEPROM, 4Kb (512x8) with Unique Serial Number, SO8"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -2629,6 +2642,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "714a9011-352f-4113-bfe9-c5d414170fd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "HTL" "103616"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9cd02f6f-539f-4a47-8dcf-6e26c50c30bb")
 			(effects
 				(font
 					(size 1 1)
@@ -2982,7 +3009,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2996,7 +3023,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, single pole double throw"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3005,6 +3032,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "HTL" "103603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d3d386f2-6665-44d0-ad16-8269c8ef5473")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3493,7 +3534,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3506,7 +3547,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3539,6 +3580,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "05f32999-b5b8-47aa-8299-f69c0b85613d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "HTL" "102959"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "862890d5-8f84-46f8-a0f2-9adda5b7724b")
 			(effects
 				(font
 					(size 1 1)
@@ -3667,7 +3722,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3680,7 +3735,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3713,6 +3768,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fdf43ac2-3dcd-45a5-a0f2-3acb8e5c4906")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "HTL" "102967"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5560016a-4106-41aa-9b7a-fc83cba4e096")
 			(effects
 				(font
 					(size 1 1)
@@ -3841,7 +3910,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3854,7 +3923,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3895,11 +3964,25 @@
 				(justify mirror)
 			)
 		)
+		(property "HTL" "100128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a74edbd1-20f9-4b86-98d4-29bbeb0ec18c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0cd62be7-738f-4e53-b43c-60bbf82cd7da")
 		(sheetname "/")
 		(sheetfile "GCA.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
 			(end 0.711252 -0.91)
@@ -4016,7 +4099,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4030,7 +4113,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4289,7 +4372,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -4302,7 +4385,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -4335,6 +4418,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ad5360cc-4b4c-4e7c-aa22-c2b49f96de68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "HTL" "102967"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77c313e0-4822-45f6-a8de-feb7df97e623")
 			(effects
 				(font
 					(size 1 1)
@@ -4463,7 +4560,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -4476,7 +4573,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -4509,6 +4606,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c3dbcc80-0be0-479b-89b0-2d2f9df3b01a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "HTL" "102967"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a3920385-23e5-43f5-8f26-7674edc8dca7")
 			(effects
 				(font
 					(size 1 1)
@@ -4637,7 +4748,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -4650,7 +4761,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -4691,11 +4802,25 @@
 				(justify mirror)
 			)
 		)
+		(property "HTL" "100140"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d94a365-0486-40bd-93e6-71bd8b2b327c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/64802978-f48d-482a-a6ec-37623f161967")
 		(sheetname "/")
 		(sheetfile "GCA.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -3.765 -1.71)
 			(end 3 -1.71)
@@ -4861,7 +4986,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4875,7 +5000,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5134,7 +5259,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -5147,7 +5272,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -5180,6 +5305,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "64c02805-d44d-47b1-935e-2336932601a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "HTL" "102967"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f14997c2-8362-4922-82f4-8fd4b1a9d183")
 			(effects
 				(font
 					(size 1 1)
@@ -5308,7 +5447,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -5321,7 +5460,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -5354,6 +5493,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "65907c74-476e-491b-bc37-d749ff53cf5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "HTL" "102959"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cfa396c9-8166-4331-8723-df330383b920")
 			(effects
 				(font
 					(size 1 1)

@@ -2477,24 +2477,6 @@
 				)
 			)
 		)
-		(property "Vendor" ""
-			(at 242.57 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" ""
-			(at 242.57 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "GCA"
 				(path "/8710e545-1664-4169-bebc-7fa64f87972f"
@@ -2574,7 +2556,7 @@
 		(at 100.33 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2624,16 +2606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "HTL"
-			(at 100.33 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" "100128"
+		(property "HTL" "100128"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -2777,16 +2750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "HTL"
-			(at 165.1 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" "102959"
+		(property "HTL" "102959"
 			(at 165.1 81.28 0)
 			(effects
 				(font
@@ -2864,16 +2828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "HTL"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" "102967"
+		(property "HTL" "102967"
 			(at 193.04 83.82 0)
 			(effects
 				(font
@@ -2967,7 +2922,7 @@
 		(at 190.5 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "21c469b8-57cd-4bc6-ab31-0c3b3f85b0e5")
@@ -3148,16 +3103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "HTL"
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" "102967"
+		(property "HTL" "102967"
 			(at 223.52 90.17 0)
 			(effects
 				(font
@@ -3304,16 +3250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "HTL"
-			(at 196.85 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" "102967"
+		(property "HTL" "102967"
 			(at 196.85 83.82 0)
 			(effects
 				(font
@@ -3521,16 +3458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "HTL"
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" "102959"
+		(property "HTL" "102959"
 			(at 161.29 81.28 0)
 			(effects
 				(font
@@ -3673,16 +3601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "HTL"
-			(at 139.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" "102967"
+		(property "HTL" "102967"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -3776,7 +3695,7 @@
 		(at 87.63 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3826,16 +3745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "HTL"
-			(at 87.63 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" "100140"
+		(property "HTL" "100140"
 			(at 87.63 88.9 0)
 			(effects
 				(font
@@ -4174,24 +4084,6 @@
 				)
 			)
 		)
-		(property "Vendor" ""
-			(at 229.87 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" ""
-			(at 229.87 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "GCA"
 				(path "/8710e545-1664-4169-bebc-7fa64f87972f"
@@ -4317,24 +4209,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Vendor" ""
-			(at 204.47 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" ""
-			(at 204.47 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -4465,6 +4339,15 @@
 				(hide yes)
 			)
 		)
+		(property "HTL" "101522"
+			(at 69.85 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "12b36f4d-a477-4b7e-b94d-d3c31a7bd2f5")
 		)
@@ -4542,24 +4425,6 @@
 				)
 			)
 		)
-		(property "Vendor" ""
-			(at 217.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" ""
-			(at 217.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "GCA"
 				(path "/8710e545-1664-4169-bebc-7fa64f87972f"
@@ -4623,16 +4488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "HTL"
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VendorId" "103616"
+		(property "HTL" "103616"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -4985,6 +4841,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HTL" "103603"
 			(at 146.05 91.44 0)
 			(effects
 				(font
